@@ -6,3 +6,5 @@ environment:
 
 install:
   - sudo ./install-build-dependencies.sh
+
+build: off
