@@ -1,0 +1,8 @@
+version: 1.0.{build}
+image: Ubuntu2204
+
+environment:
+  APPVEYOR_BAKE_IMAGE: haunts-custom-build
+
+install:
+  - ./install-build-dependencies.sh
