@@ -7,4 +7,5 @@ apt-get install -y \
 	libglew-dev \
 	liblua5.1 \
 	libx11-dev \
+	xdotool \
 	;
