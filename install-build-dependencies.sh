@@ -7,13 +7,14 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get install -y \
 	bear \
-	curl \
 	build-essential \
 	ccache \
+	curl \
 	libglew-dev \
 	liblua5.1 \
 	libx11-dev \
 	make \
+	podman \
 	xdotool \
 	xvfb \
 	;
